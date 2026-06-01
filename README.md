@@ -16,4 +16,4 @@ so my solution was to just create a simple tasks list scrip where you can essent
 This is actually a cool script however it is irrelavant because there are also many many comands and ways to get 
 the system information this script provides ,but none the less  think its cool. The main purpose of this script was 
 for me to dust off some of the more common and usefull text manipulation tools bash offers so i ended up creating
-a script that lists a bunch of system and session information :![sysdashboard](sys_dashboard)
+a script that lists a bunch of system and session information :![sysdashboard](sys_dashboard.png)
