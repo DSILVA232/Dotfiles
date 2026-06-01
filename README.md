@@ -1,6 +1,7 @@
 # file Breakdown
 
-NOTE THAT THIS IS HIGHLY INFORMAL
+NOTE THAT THIS IS HIGHLY INFORMAL 
+
 ALL of these scripts are being created using the terminal more specifically the text editor VIM 
 
 ## SETUP SH
