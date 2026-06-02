@@ -32,4 +32,9 @@ Some notes on its behaviours:
 
 -It uses find and a while loop rather than a for loop so no writing to mem 
 
+-IT has safe dupliation so no overwritten files
+
+-it now has a log feature where it will create a organiser_log file in whatever directory u executed this file from 
+
+
 -ignores certain file extensions (only 2 atm: deb and tmp) 
