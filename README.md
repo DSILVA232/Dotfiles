@@ -23,5 +23,9 @@ a script that lists a bunch of system and session information :
 
 It lacks some editing i think to make it more PRETTY , as well as some color or highlight features and i might still do that at some point just because why not but for now i wont simply because i only made this script to pratice the aforementioned things.
 
-
-
+## Organiser SH
+THis is actually rather usefull and i mainly created it for myself because of the way i strut things , but essentially what it does is, it will prompt the user askin what directory they want to organise relative to the home dir,go in the specified dir and organise all the files into folders based on file extension meaning every pdf file goes in a pdf folder etc.
+Some notes on its behaviours:
+-it only does top level search on files so no recursively going through directories 
+-It uses find and a while loop rather than a for loop so no writing to mem 
+-ignores certain file extensions (only 2 atm: deb and tmp) 
