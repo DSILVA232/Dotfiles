@@ -11,11 +11,11 @@ find "$HOME/$WORKING_DIR" -maxdepth 1 -type f -print0 |
 		
 		mkdir -p "$HOME/$WORKING_DIR/$ext"
 
-        
+        	
         mv --backup=numbered "$file" "$HOME/$WORKING_DIR/$ext/"
+	printf "%s was moved to %s\n" $(basename "$file") "$HOME/$WORKING_DIR/$ext" >> organiser_log.txt 
 
         
 	done
-
 
 
