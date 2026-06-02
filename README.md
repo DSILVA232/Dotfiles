@@ -27,6 +27,9 @@ It lacks some editing i think to make it more PRETTY , as well as some color or 
 THis is actually rather usefull and i mainly created it for myself because of the way i strut things , but essentially what it does is, it will prompt the user askin what directory they want to organise relative to the current users home dir (sample input = Downloads == home/Downloads), go in the specified dir and organise all the files into folders based on file extension meaning every pdf file goes in a pdf folder etc.
 
 Some notes on its behaviours:
+
 -it only does top level search on files so no recursively going through directories 
+
 -It uses find and a while loop rather than a for loop so no writing to mem 
+
 -ignores certain file extensions (only 2 atm: deb and tmp) 
